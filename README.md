@@ -15,7 +15,7 @@ El encabezado de la página web Glow Queen está diseñado para pantallas con un
 
 Puedes ver una vista previa en vivo del encabezado ![Web Spa](/img/Spa-Beauty.png)
 
-<a href="https://github.com/EstherChuCortes/HTML-CSS-Microsite-Portfolio" target="_blank">
+<a href="https://github.com/EstherChuCortes/CSS-header-Spa-Beautiful" target="_blank">
     <img src="https://img.shields.io/static/v1?label=|&message=VER CODIGO&color=f&style=plastic&logo=github&logo-color=white"/>
 </a>  
 <a href="https://estherchucortes.github.io/HTML-CSS-Microsite-Portfolio/" target="_blank">
