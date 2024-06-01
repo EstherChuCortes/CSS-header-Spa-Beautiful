@@ -1,0 +1,34 @@
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+
+        width: 100%;
+    }
+    
+    ul{
+        @include reset-list();
+    }
+}
+.login{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-left: 90px;
+    
+    li{
+        @include reset-list();
+        gap: 35px;
+        .cart{
+            img{
+                width: 32px;
+            }
+        }
+    }
+}

@@ -1,0 +1,129 @@
+.hero{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/img/bonita_mujer.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right -5px top -65px;
+
+    &__content{
+        width: 50%;
+        margin: 0;
+        
+
+        
+    }
+    h1{
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 80px;
+        color: $blue;
+        margin-bottom: 20px;
+    }
+    p{
+        color: #909090;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 40px;
+        width: 760px;
+        margin-bottom: 20px;
+    }
+    &__button{
+        margin: 0;
+        margin-top: -90px;
+        .btn{
+            border-radius: 20px;
+            padding: 10px 50px;
+        
+        }
+        img{
+            
+            position: relative;
+            top: 90px;
+            left: 30px;
+            
+
+        }
+        .enlace{
+            
+            text-decoration: none;
+            font-size: 18px;
+            color: $grey;
+            font-weight: 400px;
+        }
+        
+    }
+
+    .comentarios{
+        position: absolute;
+        &__uno{
+            width: 405px;
+            height: 247px;
+            border-radius: 16px;
+            background-color:  #FFFFFF80;
+            position: relative;
+            left: 760px;
+            top: 240px;
+
+            img{
+                position: relative;
+                left: 20px;
+                top: 15px;
+            }
+            
+            p{
+                width: 357px;
+                height: 135px;
+                font-size: 18px;
+                font-weight: 400px;
+                line-height: 27px;
+                color: black;
+                margin-left:20px;
+                margin-top: 20px;
+            }
+            h4{
+                font-size: 18px;
+                font-weight: 700;
+                margin: 0;
+                margin-top: -10px;
+                margin-left: 20px;
+            }
+        }
+        &__dos{
+            width: 405px;
+            height: 247px;
+            border-radius: 16px;
+            background-color:  #FFFFFF80;
+            position: relative;
+            left: 720px;
+            top: 250px;
+
+            img{
+                position: relative;
+                left: 20px;
+                top: 15px;
+            }
+            
+            p{
+                width: 357px;
+                height: 135px;
+                font-size: 18px;
+                font-weight: 400px;
+                line-height: 27px;
+                color: black;
+                margin-left:20px;
+                margin-top: 20px;
+            }
+            h4{
+                font-size: 18px;
+                font-weight: 700;
+                margin: 0;
+                margin-top: -10px;
+                margin-left: 20px;
+            }
+        }
+    }
+
+}

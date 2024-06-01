@@ -1,0 +1,38 @@
+html * {
+    font-family: $primary-font;
+}
+
+body {
+    overflow-x: hidden;
+    font-size: 16px;
+}
+body::before{
+    content: '';
+    width: 50%;
+    background: var(--Cyan, #A9D6CB);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-image: url(/img/hoja_fondo.png);
+    background-repeat: no-repeat;
+    background-position: left -20px top 40px;
+    background-size: 90%;
+} 
+
+/*// Vamos a utilizar el lado derecho de pagina web para poner un color de fondo
+body::before{
+    content: '';
+    width: 42%;
+    background-color: $black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}  */
+
+img{
+    max-width: 100%;
+}
